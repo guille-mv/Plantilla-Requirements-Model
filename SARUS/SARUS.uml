@@ -9,6 +9,8 @@
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_DwbUQCgHEeuPK8n0tEOMcQ" name="Normal Operation Conditions">
       <packagedElement xmi:type="uml:Class" xmi:id="_3__WoCgHEeuPK8n0tEOMcQ" name="Example REQ-NO" visibility="public"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aqCP0Cg0EeuQmvkOiRDdUg" name="Example 2 REQ-NO"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_TzS6ICg3Eeu80rggceGv6Q" name="Example 3"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_XPk0kCgHEeuPK8n0tEOMcQ" name="Person Detection">
       <packagedElement xmi:type="uml:Class" xmi:id="_8IHFwCgLEeu0MbS9DM8Kfw" name="Example REQ-PD"/>
@@ -96,4 +98,6 @@
   <Requirements:Requirement xmi:id="_l9Rl0CgMEeu0MbS9DM8Kfw" base_NamedElement="_l9K4ICgMEeu0MbS9DM8Kfw" id="BM-01" text="Write here requirement definition" base_Class="_l9K4ICgMEeu0MbS9DM8Kfw"/>
   <Requirements:Requirement xmi:id="_uQupwCgMEeu0MbS9DM8Kfw" base_NamedElement="_uQq_YCgMEeu0MbS9DM8Kfw" id="AC-01" text="Write here requirement definition" base_Class="_uQq_YCgMEeu0MbS9DM8Kfw"/>
   <Requirements:Requirement xmi:id="_5nV8sCgMEeu0MbS9DM8Kfw" base_NamedElement="_5nS5YCgMEeu0MbS9DM8Kfw" id="DM-01" text="Write here requirement definition" base_Class="_5nS5YCgMEeu0MbS9DM8Kfw"/>
+  <Requirements:Requirement xmi:id="_aszP8Cg0EeuQmvkOiRDdUg" base_NamedElement="_aqCP0Cg0EeuQmvkOiRDdUg" base_Class="_aqCP0Cg0EeuQmvkOiRDdUg"/>
+  <Requirements:Requirement xmi:id="_T2BeACg3Eeu80rggceGv6Q" base_NamedElement="_TzS6ICg3Eeu80rggceGv6Q" base_Class="_TzS6ICg3Eeu80rggceGv6Q"/>
 </xmi:XMI>
