@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_xqewcDaJEeuGwYoCLZAvcQ" name="RequirementSARUS">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QTvjUDaLEeuGwYoCLZAvcQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VgCdgDaVEeuGwYoCLZAvcQ" source="PapyrusVersion">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VgCdgTaVEeuGwYoCLZAvcQ" key="Version" value="0.0.0"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VgCdgjaVEeuGwYoCLZAvcQ" key="Comment" value="&lt;undefined>"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VgCdgzaVEeuGwYoCLZAvcQ" key="Copyright" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VgCdhDaVEeuGwYoCLZAvcQ" key="Date" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VgCdhTaVEeuGwYoCLZAvcQ" key="Author" value="&lt;undefined>"/>
+    </eAnnotations>
+    <contents xmi:type="ecore:EPackage" xmi:id="_lZKSUDaVEeuGwYoCLZAvcQ" name="RequirementSARUS" nsURI="http:///schemas/RequirementSARUS/_lZJrQDaVEeuGwYoCLZAvcQ/1" nsPrefix="RequirementSARUS">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lZKSUTaVEeuGwYoCLZAvcQ" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lZLgcTaVEeuGwYoCLZAvcQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lZLgcjaVEeuGwYoCLZAvcQ" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lZLgczaVEeuGwYoCLZAvcQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lZLgdDaVEeuGwYoCLZAvcQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lZLgdTaVEeuGwYoCLZAvcQ" key="Date" value="2020-12-05"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lZLgdjaVEeuGwYoCLZAvcQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_lZKSUjaVEeuGwYoCLZAvcQ" name="RequirementSARUS">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lZKSUzaVEeuGwYoCLZAvcQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7V-lYDaJEeuGwYoCLZAvcQ"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements/Requirement"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_lZKSVDaVEeuGwYoCLZAvcQ" name="Author" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_lZKSVjaVEeuGwYoCLZAvcQ" name="Priority" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_lZKSWDaVEeuGwYoCLZAvcQ" name="Risk" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_lZKSWjaVEeuGwYoCLZAvcQ" name="Cost" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_lZKSXDaVEeuGwYoCLZAvcQ" name="Complexity" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_lZKSXjaVEeuGwYoCLZAvcQ" name="VerificationStatus" ordered="false" lowerBound="1">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lZKSXzaVEeuGwYoCLZAvcQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lZKSYDaVEeuGwYoCLZAvcQ" key="originalName" value="Verification Status"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_lZKSYjaVEeuGwYoCLZAvcQ" name="ValidationStatus" ordered="false" lowerBound="1">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lZKSYzaVEeuGwYoCLZAvcQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lZKSZDaVEeuGwYoCLZAvcQ" key="originalName" value="Validation Status"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_QTwKYDaLEeuGwYoCLZAvcQ" name="RequirementSARUS" nsURI="http:///schemas/RequirementSARUS/_QTuVMDaLEeuGwYoCLZAvcQ/0" nsPrefix="RequirementSARUS">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QTwxcDaLEeuGwYoCLZAvcQ" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QTx_kTaLEeuGwYoCLZAvcQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QTx_kjaLEeuGwYoCLZAvcQ" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QTx_kzaLEeuGwYoCLZAvcQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QTx_lDaLEeuGwYoCLZAvcQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QTx_lTaLEeuGwYoCLZAvcQ" key="Date" value="2020-12-05"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QTx_ljaLEeuGwYoCLZAvcQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_QTwxcTaLEeuGwYoCLZAvcQ" name="RequirementSARUS">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QTwxcjaLEeuGwYoCLZAvcQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7V-lYDaJEeuGwYoCLZAvcQ"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements/Requirement"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_QTwxczaLEeuGwYoCLZAvcQ" name="Author" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_QTwxdTaLEeuGwYoCLZAvcQ" name="Priority" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_QTwxdzaLEeuGwYoCLZAvcQ" name="Risk" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_QTwxeTaLEeuGwYoCLZAvcQ" name="Cost" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_QTwxezaLEeuGwYoCLZAvcQ" name="Complexity" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_QTwxfTaLEeuGwYoCLZAvcQ" name="VerificationStatus" ordered="false" lowerBound="1">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QTwxfjaLEeuGwYoCLZAvcQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QTwxfzaLEeuGwYoCLZAvcQ" key="originalName" value="Verification Status"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_QTwxgTaLEeuGwYoCLZAvcQ" name="ValidationStatus" ordered="false" lowerBound="1">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QTwxgjaLEeuGwYoCLZAvcQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QTwxgzaLEeuGwYoCLZAvcQ" key="originalName" value="Validation Status"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_yLP7MDaJEeuGwYoCLZAvcQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_yLQiQDaJEeuGwYoCLZAvcQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_E2J7IDaKEeuGwYoCLZAvcQ">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_7V-lYDaJEeuGwYoCLZAvcQ" name="RequirementSARUS">
+    <generalization xmi:type="uml:Generalization" xmi:id="_OYGLcDaKEeuGwYoCLZAvcQ">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements.stereotype_packagedElement_Requirement"/>
+    </generalization>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_RiC-8DaKEeuGwYoCLZAvcQ" name="Author">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_gtGM0DaKEeuGwYoCLZAvcQ" name="Priority">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mOn7sDaKEeuGwYoCLZAvcQ" name="Risk">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_rMLa0DaKEeuGwYoCLZAvcQ" name="Cost">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wr0TUDaKEeuGwYoCLZAvcQ" name="Complexity">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_0DD78DaKEeuGwYoCLZAvcQ" name="Verification Status">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3m3Z4DaKEeuGwYoCLZAvcQ" name="Validation Status">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <icon xmi:type="uml:Image" xmi:id="_VgGu8DaVEeuGwYoCLZAvcQ" content="71%73%70%56%57%97%16%0%16%0%-77%0%0%-1%-1%-1%-13%-1%-12%-19%-1%-17%-16%-1%-14%-27%-1%-23%-48%-16%-49%-81%-39%-76%32%-97%44%-1%-1%-1%0%0%0%0%0%0%0%0%0%0%0%0%0%0%0%0%0%0%0%0%0%33%-7%4%1%7%0%8%0%44%0%0%0%0%16%0%16%0%0%4%71%16%-55%73%-85%-67%-11%-24%125%48%58%64%24%118%24%103%-102%-46%81%-84%108%-69%-110%42%65%24%-124%70%-45%117%90%-52%71%-19%31%52%88%65%112%16%16%-127%-58%-94%112%96%56%12%-100%-125%-89%-31%-87%11%4%12%-127%-125%-11%106%21%110%-65%95%-40%105%-20%41%-101%-49%-105%8%0%59%" format="Papyrus">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VgGu8TaVEeuGwYoCLZAvcQ" source="image_papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VgGu8jaVEeuGwYoCLZAvcQ" key="image_name_key" value="RequirementSARUS_icon"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VgGu8zaVEeuGwYoCLZAvcQ" key="image_kind_key" value="icon"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VgGu9DaVEeuGwYoCLZAvcQ" key="image_expr_key" value="importance=High"/>
+      </eAnnotations>
+    </icon>
+  </packagedElement>
+</uml:Profile>
