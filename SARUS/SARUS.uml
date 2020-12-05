@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:RequirementSARUS="http:///schemas/RequirementSARUS/_lZJrQDaVEeuGwYoCLZAvcQ/1" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:reqSARUS="http:///schemas/reqSARUS/_C6kxEDb_Eeul8LQYmYn2lQ/0" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/RequirementSARUS/_lZJrQDaVEeuGwYoCLZAvcQ/1 ../req_SARUS/req_SARUS.profile.uml#_lZKSUDaVEeuGwYoCLZAvcQ http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements http:///schemas/reqSARUS/_C6kxEDb_Eeul8LQYmYn2lQ/0 reqSARUS.profile.uml#_C6nNUTb_Eeul8LQYmYn2lQ">
   <uml:Model xmi:id="_wPdPACgGEeuPK8n0tEOMcQ" name="SARUS">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_wSAzwCgGEeuPK8n0tEOMcQ">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -14,9 +14,35 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_XPk0kCgHEeuPK8n0tEOMcQ" name="Person Detection">
       <packagedElement xmi:type="uml:Class" xmi:id="_8IHFwCgLEeu0MbS9DM8Kfw" name="Example REQ-PD"/>
+      <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_N9DnEDb_Eeul8LQYmYn2lQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N9GDUTb_Eeul8LQYmYn2lQ" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N9GDUjb_Eeul8LQYmYn2lQ" key="Version" value="0.0.1"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N9GDUzb_Eeul8LQYmYn2lQ" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N9GDVDb_Eeul8LQYmYn2lQ" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N9GDVTb_Eeul8LQYmYn2lQ" key="Date" value="2020-12-05"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N9GDVjb_Eeul8LQYmYn2lQ" key="Author" value=""/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N9GDUDb_Eeul8LQYmYn2lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="ecore:EPackage" href="reqSARUS.profile.uml#_C6nNUTb_Eeul8LQYmYn2lQ"/>
+        </eAnnotations>
+        <appliedProfile xmi:type="uml:Profile" href="reqSARUS.profile.uml#_Smm3ADb9Eeul8LQYmYn2lQ"/>
+      </profileApplication>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_bIzv8CgHEeuPK8n0tEOMcQ" name="Communication">
       <packagedElement xmi:type="uml:Class" xmi:id="_RNnf4CgMEeu0MbS9DM8Kfw" name="Example REQ-CM"/>
+      <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_oW_IMDb_Eeul8LQYmYn2lQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oW_vQTb_Eeul8LQYmYn2lQ" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oW_vQjb_Eeul8LQYmYn2lQ" key="Version" value="0.0.2"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oW_vQzb_Eeul8LQYmYn2lQ" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oW_vRDb_Eeul8LQYmYn2lQ" key="Copyright" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oW_vRTb_Eeul8LQYmYn2lQ" key="Date" value="2020-12-05"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oW_vRjb_Eeul8LQYmYn2lQ" key="Author" value=""/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oW_vQDb_Eeul8LQYmYn2lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="ecore:EPackage" href="../req_SARUS/req_SARUS.profile.uml#_lZKSUDaVEeuGwYoCLZAvcQ"/>
+        </eAnnotations>
+        <appliedProfile xmi:type="uml:Profile" href="../req_SARUS/req_SARUS.profile.uml#_xqewcDaJEeuGwYoCLZAvcQ"/>
+      </profileApplication>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_hxmB0CgHEeuPK8n0tEOMcQ" name="Fault Management">
       <packagedElement xmi:type="uml:Class" xmi:id="_dv_bUCgMEeu0MbS9DM8Kfw" name="Example REQ-FM"/>
@@ -92,12 +118,11 @@
     </profileApplication>
   </uml:Model>
   <Requirements:Requirement xmi:id="_4BRJACgHEeuPK8n0tEOMcQ" base_NamedElement="_3__WoCgHEeuPK8n0tEOMcQ" id="NO-01" text="Write here requirement definition" base_Class="_3__WoCgHEeuPK8n0tEOMcQ"/>
-  <Requirements:Requirement xmi:id="_8IQPsCgLEeu0MbS9DM8Kfw" base_NamedElement="_8IHFwCgLEeu0MbS9DM8Kfw" id="PD-01" text="Write here requirement definition" base_Class="_8IHFwCgLEeu0MbS9DM8Kfw"/>
-  <Requirements:Requirement xmi:id="_RNrKQCgMEeu0MbS9DM8Kfw" base_NamedElement="_RNnf4CgMEeu0MbS9DM8Kfw" id="CM-01" text="Write here requirement definition" base_Class="_RNnf4CgMEeu0MbS9DM8Kfw"/>
   <Requirements:Requirement xmi:id="_dwCeoCgMEeu0MbS9DM8Kfw" base_NamedElement="_dv_bUCgMEeu0MbS9DM8Kfw" id="FM-01" text="Write here requirement definition" base_Class="_dv_bUCgMEeu0MbS9DM8Kfw"/>
-  <Requirements:Requirement xmi:id="_l9Rl0CgMEeu0MbS9DM8Kfw" base_NamedElement="_l9K4ICgMEeu0MbS9DM8Kfw" id="BM-01" text="Write here requirement definition" base_Class="_l9K4ICgMEeu0MbS9DM8Kfw"/>
   <Requirements:Requirement xmi:id="_uQupwCgMEeu0MbS9DM8Kfw" base_NamedElement="_uQq_YCgMEeu0MbS9DM8Kfw" id="AC-01" text="Write here requirement definition" base_Class="_uQq_YCgMEeu0MbS9DM8Kfw"/>
   <Requirements:Requirement xmi:id="_5nV8sCgMEeu0MbS9DM8Kfw" base_NamedElement="_5nS5YCgMEeu0MbS9DM8Kfw" id="DM-01" text="Write here requirement definition" base_Class="_5nS5YCgMEeu0MbS9DM8Kfw"/>
   <Requirements:Requirement xmi:id="_aszP8Cg0EeuQmvkOiRDdUg" base_NamedElement="_aqCP0Cg0EeuQmvkOiRDdUg" base_Class="_aqCP0Cg0EeuQmvkOiRDdUg"/>
   <Requirements:Requirement xmi:id="_T2BeACg3Eeu80rggceGv6Q" base_NamedElement="_TzS6ICg3Eeu80rggceGv6Q" base_Class="_TzS6ICg3Eeu80rggceGv6Q"/>
+  <reqSARUS:RequirementSARUS xmi:id="_Q3ILgDb_Eeul8LQYmYn2lQ" base_NamedElement="_8IHFwCgLEeu0MbS9DM8Kfw" base_Class="_8IHFwCgLEeu0MbS9DM8Kfw"/>
+  <RequirementSARUS:RequirementSARUS xmi:id="_sxQ7IDb_Eeul8LQYmYn2lQ" base_NamedElement="_RNnf4CgMEeu0MbS9DM8Kfw" base_Class="_RNnf4CgMEeu0MbS9DM8Kfw"/>
 </xmi:XMI>
